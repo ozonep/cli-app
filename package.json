@@ -2,9 +2,14 @@
   "name": "cli-app",
   "version": "1.0.0",
   "description": "Highly Divisible Triangular Number",
-  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "hdtn": "./cli.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node cli.js",
+    "lint": "standard --fix"
   },
   "repository": {
     "type": "git",
@@ -18,5 +23,8 @@
   "homepage": "https://github.com/ozonep/cli-app#readme",
   "dependencies": {
     "@types/node": "^15.0.2"
+  },
+  "devDependencies": {
+    "standard": "^16.0.3"
   }
 }
