@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ozonep/cli-app/issues"
   },
-  "homepage": "https://github.com/ozonep/cli-app#readme"
+  "homepage": "https://github.com/ozonep/cli-app#readme",
+  "dependencies": {
+    "@types/node": "^15.0.2"
+  }
 }
