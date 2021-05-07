@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Highly Divisible Triangular Number",
   "type": "module",
+  "engines": {
+    "node": ">14"
+  },
   "bin": {
     "hdtn": "./cli.js"
   },
